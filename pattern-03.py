@@ -1,5 +1,6 @@
-for i in range(1,6):
-    for j in range(1,6):
+n = int(input('ENTER THE NO. OF LINES YOU WANT: '))
+for i in range(1,n):
+    for j in range(1,n):
         print(j,end='')
     print()
 
