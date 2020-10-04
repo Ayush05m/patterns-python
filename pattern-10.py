@@ -1,4 +1,5 @@
-for x in range(5):
+n = int(input('ENTER THE SIZE OF PATTERN: '))
+for x in range(n):
     for y in range(x+1):
         print('*',end='')
     print()
